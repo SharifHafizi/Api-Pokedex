@@ -1,0 +1,75 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: linear-gradient(90deg, #4743d0, #880868);
+  font-family: "Courier New", Courier, monospace;
+  width: 100vw;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+h1 {
+  font-size: 3rem;
+  color: #fff;
+  margin-top: 20px;
+}
+h3 {
+  color: #fff;
+  margin-top: 10px;
+  opacity: 0.8;
+}
+form {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  margin: 1.5rem 0;
+}
+
+button,
+input {
+  padding: 10px 20px;
+  background-color: #fff;
+  border: none;
+  font-size: 1.3rem;
+}
+input {
+  font-weight: bold;
+}
+input:focus {
+  outline: none;
+}
+button {
+  cursor: pointer;
+  height: 45px;
+}
+.poke-container {
+  justify-content: center;
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+  padding: 3rem;
+}
+.poke-box {
+  margin: 10px;
+  width: 300px;
+  background: #fff;
+  border-radius: 15px;
+  padding: 10px;
+}
+.poke-box img {
+  margin: 10px 0;
+  width: 80%;
+}
+.poke-box h4 {
+  font-size: 1.4rem;
+  margin: 5px auto;
+}
+.poke-box p {
+  margin: 5px auto;
+}
